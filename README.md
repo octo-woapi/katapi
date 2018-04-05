@@ -1,6 +1,6 @@
 # Katapi
 
-> An API kata with Cucumber features.
+> A kata to practice your API design and development skills.
 
 This [kata](https://en.wikipedia.org/wiki/Kata_(programming)) offers a set of features to practice your API programming skills. It covers basic HTTP verbs and codes.
 
