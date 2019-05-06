@@ -10,7 +10,7 @@ Shopping API with products, orders and bills.
 
 * Products
   * Can be listed, created, updated, found by id, deleted
-  * Have an `identifier`, `name`, `price` and `weight`
+  * Have an `id`, `name`, `price` and `weight`
   * Products can be sorted by `name`, `price` or `weight`
 * Orders
   * Can be created, listed, updated and deleted
