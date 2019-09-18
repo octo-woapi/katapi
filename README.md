@@ -12,10 +12,12 @@ Shopping API with products, orders and bills.
   * Can be listed, created, updated, found by id, deleted
   * Have an `id`, `name`, `price` and `weight`
   * Products can be sorted by `name`, `price` or `weight`
+  * Products `name` must be longer than 3 characters or throw an error if shorter
+  * Products `id` cannot be updated
 * Orders
   * Can be created, listed, updated and deleted
-  * Have a status, a product list with a quantity per product, a shipment amount, a total amount and a weight
-  * Orders status can be `pending`, `paid` or `canceled`
+  * Have a `status`, a `product list` with a `quantity` per product, a `shipment amount`, a `total amount` and a `weight`
+  * Orders `status` can be `pending`, `paid` or `canceled`
   * Are offered 5% discount when the price exceeds 1000€
   * Shipment costs 25€ for every 10 more kg (50€ for 20kg, 75€ for 30kg, etc.)
 * Bills
